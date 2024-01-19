@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:multiroleapp/admin_screen.dart';
 import 'package:multiroleapp/home_screen.dart';
 import 'package:multiroleapp/login_screen.dart';
 import 'package:multiroleapp/student_screen.dart';
@@ -44,6 +45,14 @@ void isLogin() async{
           Navigator.push(
             context,
             MaterialPageRoute(builder: (BuildContext context) => const TeacherScreen()),
+          );
+        });
+      }
+      else if(UserType == 'teacher'){
+        Timer(const Duration(seconds: 3), () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (BuildContext context) => const AdminScreen()),
           );
         });
       }
