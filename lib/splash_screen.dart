@@ -82,7 +82,7 @@ void isLogin() async{
       body: Center(child: Image(
         height: double.infinity,
         fit: BoxFit.fitHeight,
-        image: NetworkImage('https://images.pexels.com/photos/8229945/pexels-photo-8229945.jpeg?auto=compress&cs=tinysrgb&w=600'),)),
+        image: NetworkImage('https://images.pexels.com/photos/8191527/pexels-photo-8191527.jpeg?auto=compress&cs=tinysrgb&w=600'),)),
     );
   }
 }
