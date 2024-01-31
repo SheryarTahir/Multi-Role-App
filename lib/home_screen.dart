@@ -30,7 +30,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigoAccent,
+        backgroundColor: Color(0xff505c45),
         title: Text('HOME'),
         centerTitle: true,
         automaticallyImplyLeading: false,
@@ -72,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Container(
                 height: 50,
                 width: double.infinity,
-                color: Colors.green,
+                color: Color(0xff7B8D6A),
                 child: const Center(child: Text('LOGOUT')),
               ),
             )

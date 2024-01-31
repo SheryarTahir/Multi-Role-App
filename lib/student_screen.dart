@@ -32,7 +32,7 @@ class _StudentScreenState extends State<StudentScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigoAccent,
+        backgroundColor: Color(0xffC3CA92),
         title: const Text('STUDENT'),
         centerTitle: true,
         automaticallyImplyLeading: false,
@@ -84,7 +84,7 @@ class _StudentScreenState extends State<StudentScreen> {
               child: Container(
                 height: 50,
                 width: double.infinity,
-                color: Colors.green,
+                color: Color(0xffA4B17B),
                 child: const Center(child: Text('LOGOUT')),
               ),
             )

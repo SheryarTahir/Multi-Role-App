@@ -31,7 +31,7 @@ class _AdminScreenState extends State<AdminScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigoAccent,
+        backgroundColor: Color(0xffFCC5C9),
         title: const Text('ADMIN'),
         centerTitle: true,
         automaticallyImplyLeading: false,
@@ -81,7 +81,7 @@ class _AdminScreenState extends State<AdminScreen> {
               child: Container(
                 height: 50,
                 width: double.infinity,
-                color: Colors.green,
+                color: Color(0xffE6ADB4),
                 child: const Center(child: Text('LOGOUT')),
               ),
             )

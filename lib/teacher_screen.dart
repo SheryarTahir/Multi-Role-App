@@ -31,7 +31,7 @@ class _TeacherScreenState extends State<TeacherScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.indigoAccent,
+        backgroundColor: Color(0xffD9D8D9),
         title: const Text('TEACHER'),
         centerTitle: true,
         automaticallyImplyLeading: false,
@@ -81,7 +81,7 @@ class _TeacherScreenState extends State<TeacherScreen> {
               child: Container(
                 height: 50,
                 width: double.infinity,
-                color: Colors.green,
+                color: Color(0xffB3A3BA),
                 child: const Center(child: Text('LOGOUT')),
               ),
             )
